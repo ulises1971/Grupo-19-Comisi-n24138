@@ -1,0 +1,27 @@
+
+.registro_enviado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .icon_enviados {
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+  
+    margin-bottom: 1rem;
+  
+    background-image: url(../img/checkmark.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .titulo_enviado {
+    max-width: 20rem;
+  }
+  
+.parrafo{
+  text-align: center;
+}
