@@ -58,6 +58,41 @@ nav a, footer a {
 .carousel img {
     height: 100%;
 }
+/*------------------CONTAINER-------------------*/
+.eventos {
+    display: flex;
+    justify-content: center;
+}
+.image{
+    color: #e10909;
+}
+.eventoscontainer {
+    background: #efecec;
+    padding: 15px;
+    margin: 0 2% 50px;
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+}
+
+.eventoscontainer h3 {
+    font-size: 1.5rem;
+}
+
+.eventoscontainer img {
+    height: 35vh;
+    box-sizing: border-box;
+    border: 5px solid rgba(0, 0, 0, 0.644);
+}
+
+.eventoscontainer li {
+    text-align: left;
+}
+
+.eventoscontainer button {
+    background-color: green;
+    color: white;
+}
 
 /*------------------NOSOTROS--------------------*/
 .titulo-sobre{
